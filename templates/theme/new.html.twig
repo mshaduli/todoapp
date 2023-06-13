@@ -1,0 +1,49 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}New Project!{% endblock %}
+
+{% block main %}
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">New Project</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+            <a href="#" class="btn btn-sm btn-outline-secondary">Back to list</a>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-12">
+                <label for="validationCustom01" class="form-label">Project name</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Project name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-12">
+                <label for="validationCustom02" class="form-label">Project Description</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                <div class="invalid-feedback">
+                    Please enter a message in the textarea.
+                </div>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Is Enabled
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+
+
