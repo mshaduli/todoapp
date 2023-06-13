@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c76d4ab9-a7c5-43ed-8406-722ffc1b1246" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/styles/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventListener/CommandDispatchListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/theme/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686675445336</updated>
       <workItem from="1686675446618" duration="145000" />
-      <workItem from="1686675610929" duration="8024000" />
+      <workItem from="1686675610929" duration="8414000" />
     </task>
     <servers />
   </component>
