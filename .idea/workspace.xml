@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c76d4ab9-a7c5-43ed-8406-722ffc1b1246" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/theme/shop.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/theme/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ThemeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ThemeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EventListener/CommandDispatchListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventListener/CommandDispatchListener.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,16 +156,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/muhammadali/personal/todoapp/assets/styles",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/muhammadali/personal/todoapp/assets/styles&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/styles" />
@@ -184,7 +186,8 @@
       <option name="presentableId" value="Default" />
       <updated>1686675445336</updated>
       <workItem from="1686675446618" duration="145000" />
-      <workItem from="1686675610929" duration="8414000" />
+      <workItem from="1686675610929" duration="10352000" />
+      <workItem from="1686861572137" duration="1220000" />
     </task>
     <servers />
   </component>

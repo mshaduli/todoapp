@@ -12,7 +12,7 @@ class CommandDispatchListener
 {
     public function __invoke(ConsoleCommandEvent $commandEvent) :void
     {
-        if (in_array($commandEvent->getCommand()->getName(), ['make:crud', 'make:registration-form']))
+        if (in_array($commandEvent->getCommand()->getName(), ['make:crud', 'make:registration-form', 'make:form']))
         {
             $io = new SymfonyStyle($commandEvent->getInput(), $commandEvent->getOutput());
             $io->note('You are not authorized to use this feature!!!!!');

@@ -23,4 +23,13 @@ class ThemeController extends AbstractController
             'controller_name' => 'ThemeController',
         ]);
     }
+
+
+    #[Route('/theme/shop', name: 'app_theme_products')]
+    public function shop(): Response
+    {
+        return $this->render('theme/shop.html.twig', [
+            'controller_name' => 'ThemeController',
+        ]);
+    }
 }
